@@ -1,1 +1,2 @@
-export * from './lib/shared-ui';
+import './styles.css'
+export * from './lib/Modal/Modal';
