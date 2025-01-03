@@ -1,9 +1,11 @@
 import NxWelcome from '../nx-welcome';
+import { Modal } from '@buckaroo-banzai/shared-ui';
+
 
 export default function Index() {
   return (
     <div>
-      <NxWelcome title={'users'} />
+      <Modal title={'users'} />
     </div>
   );
 }
